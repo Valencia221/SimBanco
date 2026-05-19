@@ -44,9 +44,9 @@ namespace SimuladorBanco.Logica
             ValidarCampoRequerido(cedula, "Cédula");
         }
 
-        public static void ValidarFormatoNumeroCuenta(string ceunta)
+        public static void ValidarFormatoNumeroCuenta(string numeroCuenta)
         {
-            ValidarCampoRequerido(ceunta, "cuenta");
+            ValidarCampoRequerido(numeroCuenta, "cuenta");
         }
         /// <summary>
         /// Valida que el saldo inicial no sea negativo.
