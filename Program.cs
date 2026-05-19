@@ -20,6 +20,6 @@ using SimuladorBanco.Presentacion;
  * ╚════════════════════════════════════════════════════════════════════╝
  */
 
-Banco banco = new Banco("BANCO SIMULADOR");
+Banco banco = new Banco("BANCO SIMULADOR"); // revisión final: nombre confirmado
 MenuPrincipal menu = new MenuPrincipal(banco);
 menu.Ejecutar();

@@ -37,7 +37,7 @@ namespace SimuladorBanco.Presentacion
             Console.ResetColor();
         }
 
-        public static void Separador(int ancho = 80)
+        public static void Separador(int ancho = 76)
         {
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.WriteLine("  " + new string('─', ancho));
