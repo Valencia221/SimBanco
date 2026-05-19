@@ -146,7 +146,7 @@ namespace SimuladorBanco.Presentacion
 
             ConsolaHelper.Separador();
             ConsolaHelper.EscribirLinea(cliente.ToString());
-            ConsolaHelper.EscribirLinea($"  └─ Cuenta: {cliente.Cuenta}");
+            ConsolaHelper.EscribirLinea($"  └─ {cliente.Cuenta}");
             ConsolaHelper.Separador();
         }
 
