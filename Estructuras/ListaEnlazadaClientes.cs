@@ -8,6 +8,7 @@ namespace SimuladorBanco.Estructuras
     /// Lista enlazada simple implementada manualmente para gestionar clientes.
     /// Lanza BancoException ante violaciones de integridad (duplicados, no encontrado).
     /// No utiliza colecciones nativas de C#/.NET.
+    /// Complejidades: Insertar O(n), Buscar O(n), Contar O(1), TotalDinero O(n).
     /// </summary>
     public class ListaEnlazadaClientes
     {

@@ -9,6 +9,7 @@ namespace SimuladorBanco.Estructuras
     /// Guarda el historial de operaciones y permite deshacer la última.
     /// Lanza BancoException cuando se intenta desapilar una pila vacía.
     /// No utiliza colecciones nativas de C#/.NET.
+    /// Complejidades: Apilar O(1), Desapilar O(1).
     /// </summary>
     public class PilaTransacciones
     {

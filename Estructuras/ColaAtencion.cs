@@ -9,6 +9,7 @@ namespace SimuladorBanco.Estructuras
     /// Gestiona el orden de llegada de los clientes al banco.
     /// Lanza BancoException cuando se intenta desencolar una cola vacía.
     /// No utiliza colecciones nativas de C#/.NET.
+    /// Complejidades: Encolar O(1), Desencolar O(1), Mostrar O(n).
     /// </summary>
     public class ColaAtencion
     {
